@@ -1,0 +1,263 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    background: rgb(243, 243, 243);
+    width: 100%;
+    height: auto;
+}
+.headerAll {
+    background: rgb(119, 195, 240);
+    width: 100%;
+    height: 50px;
+}
+.logo {
+    display: block;
+    width: 20%;
+    float: left;
+}
+.logo img {
+    width: 130px;
+    height: 46px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.menu {
+    /* background: violet; */
+    display: block;
+    width: auto;
+    height: 50px;
+    width: 80%;
+    float: left;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-left: 60%;
+}
+.menu ul li {
+    margin: 0 2px;
+    line-height: 50px;
+}
+.menu ul li a {
+    background: rgb(184, 136, 233);
+    text-decoration: none;
+    color: #000;
+    width:auto;
+    padding: 6px 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;  
+}
+.menu ul li a:hover {
+    background: rgb(114, 132, 236);
+    color: #fff;
+}
+.main {
+    background-image: url('../img/spcar.jpg');
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mainText_1 {
+    text-align: center;
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.56);
+}
+.mainText_1 h3 {
+    font-size:  1.9rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.mainText_1 hr {
+    width: 60%;
+    background: #fff;
+    border-radius: 50%;
+    display: block; 
+    margin: 0px auto 10px;
+}
+.mainText_1 p, .mainText_2 p {
+    font-size:  1.2rem;
+    /* font-weight: bold; */
+}
+.mainText_2 {
+    width: 1200px;
+    display: block;
+    margin: 10px auto 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.534);
+}
+.end {
+    width: 100%;
+    height: 50px;
+    background: yellowgreen;
+    display: block;
+}
+.end img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+.controlImgEnd {
+    display: block;
+    padding-top: 5px;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+}
+/*  */
+.item {
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+  }
+.item:hover {
+    opacity: 0.8;
+}
+  .item1 { background: url("../img/vehicle-4044036_1920.jpg");
+    background-size: cover;
+    }
+  .item2 { background: url("../img/automobile-1834274_1920.jpg");background-size: cover;}
+  .item3 { background: url("../img/bmw-1274292_1920.jpg");background-size: cover;}
+  .item4 { background: url("../img/bmw-2362815_1920.jpg");background-size: cover;}
+  .item5 { background: url("../img/bmw-768688_1920.jpg");background-size: cover;}
+  .item6 {background: url("../img/bmw-918408_1920.jpg");background-size: cover; }
+  .item7 { background: url("../img/sports-car-1349139_1920.jpg");background-size: cover;}
+  .item8 { background: url("../img/bmw-m4-3169357_1920.jpg");background-size: cover;}
+  .wrapper {
+    width: 100%;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-columns: 25% 25% 25% 24.5%;
+    grid-template-rows: 500px 500px 500px 500px;
+  }
+  
+  .item1 {
+      grid-column: 1 / span 3;
+  }
+  
+/* .item3 {
+    grid-column: 1 / span 2;
+} */
+.item4 {
+grid-column: 2/  span 3;
+}
+.item5 {
+grid-column: 1/  span 2;
+/* grid-row: 2 / span 2; */
+}
+.item6 {
+    grid-column: 3 / span 2;
+}
+.item7 {
+grid-column: 1 / span 2;
+}
+.item8 {
+    grid-column: 3 / span 2;
+}
+/*  */
+.error p {
+  color: rgba(38, 60, 255, 0.733);
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+.datxe {
+    background: url("../img/bmw-918408_1920.jpg");
+    width: 100%;
+    height: 710px;
+}
+.datxe form {
+    /* background: violet; */
+}
+.thongtin {
+    width: 500px;
+}
+.thongtin, .thanhtoan, .phankhuc, .loaitien {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    background: rgba(198, 53, 255, 0.603);
+    height: auto;
+    text-align: center;
+}
+.thanhtoan, .phankhuc, .loaitien {
+    width: 400px;
+}
+.thongtin input {
+    display: block;
+    margin: 4px auto;
+    width: 320px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.ketqua {
+}
+.ketqua button, .dangnhap button {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+.ketqua button:hover {
+    opacity: 0.8;
+}
+.ketqua button:nth-child(1) {
+    background: rgba(56, 255, 99, 0.815);
+}
+.ketqua button:nth-child(2) {
+    background: rgba(255, 93, 72, 0.815);
+}
+/*  */
+.dangnhap {
+    width: 100%;
+    height: 710px;
+    background: url("../img/spcar.jpg");
+}
+.control_dangnhap_1, .control_dangnhap_2 {
+    display: block;
+    width: 48%;
+    height: 400px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.479);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.control_dangnhap_1 input, .control_dangnhap_2 input, button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.control_dangnhap_1 input, .control_dangnhap_2 input {
+    width: 350px;
+    height: 25px;
+    margin-top: 5px;
+}
+.btn_1 {
+    background: rgba(56, 255, 99, 0.815);
+}
+.btn_2 {
+    background: rgba(255, 93, 72, 0.815);
+}
+.bth_1:hover, .btn_2:hover {
+    opacity: 0.8;
+}
+.footer {
+    color: #ffffff;
+    background-color: #32a2c2;
+    border: double 5px;
+}

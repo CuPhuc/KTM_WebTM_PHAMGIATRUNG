@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="headerAll">
+        <div class="logo">
+            <img src="img/logo.png" alt="img"/>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="Index.aspx">Tin Tức Ô Tô</a> </li>
+                <li><a href="Album.aspx">Album ảnh</a></li>
+                
+                <li><a href="DangNhap.aspx">Đăng nhập</a></li>
+                <li><a href="Default.aspx">Tham khảo</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>
+        <center><p1> Gia Trung Auto Copyright &copy; 2019 </p1>
+        <p2><img src="https://www.hurasoft.vn/uploads/site2/article/2018/05/4EgxY9Faaw6.png" width="100px"></p2> </center>
+    </footer>
+    </form>
+</body>
+</html>
