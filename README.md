@@ -11,3 +11,7 @@ KTM
 <p> Đây là trang đăng nhập</p>
 <img src = "https://github.com/CuPhuc/KTM_WebTM_PHAMGIATRUNG/blob/master/%C4%90%C4%83ng%20nh%E1%BA%ADp.jpg">
 <p> Nếu bạn có dự định mua xe hoặc muốn biết về dòng xe đó hay bạn muốn biết doanh số các hãng xe thì trang tin luôn có những bài viết tin tức khách quan và chính xác nhất có thể để bạn đọc dễ dàng nắm bắt thông tin.</p>
+<p> Hình ảnh cơ sở dữ liệu </p>
+<img src = "https://github.com/CuPhuc/KTM_WebTM_PHAMGIATRUNG/blob/master/LIENKET.JPG">
+<img src = "https://github.com/CuPhuc/KTM_WebTM_PHAMGIATRUNG/blob/master/TACGIA.JPG">
+<img src = "https://github.com/CuPhuc/KTM_WebTM_PHAMGIATRUNG/blob/master/TINTUC.JPG">
